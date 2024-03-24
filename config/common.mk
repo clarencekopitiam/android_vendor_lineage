@@ -158,6 +158,9 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/%/libfuse-lite.so \
     system/%/libntfs-3g.so
 
+# GApps
+$(call inherit-product-if-exists, vendor/gms/products/gms.mk)
+
 # Openssh
 PRODUCT_PACKAGES += \
     scp \
