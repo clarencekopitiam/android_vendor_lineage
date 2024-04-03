@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -16,5 +17,8 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <!-- A list of apps to be removed from the managed user by a particular vendor. -->
+    <string-array translatable="false" name="vendor_disallowed_apps_managed_user">
+        <item>com.google.android.apps.healthdata</item>
+    </string-array>
 </resources>

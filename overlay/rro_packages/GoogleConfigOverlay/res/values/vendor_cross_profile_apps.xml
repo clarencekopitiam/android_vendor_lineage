@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -16,5 +17,13 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <!-- A list of apps to be allowed on the device across profiles.
+            Takes precedence over the allowed apps lists. -->
+    <string-array name="vendor_cross_profile_apps" translatable="false">
+        <item>com.google.android.googlequicksearchbox</item>
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.projection.gearhead</item>
+        <item>com.google.android.inputmethod.latin.dev</item>
+        <item>com.google.android.inputmethod.latin.canary</item>
+    </string-array>
 </resources>

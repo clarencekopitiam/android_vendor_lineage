@@ -16,5 +16,5 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <bool name="show_progress_label_on_left_side">true</bool>
 </resources>

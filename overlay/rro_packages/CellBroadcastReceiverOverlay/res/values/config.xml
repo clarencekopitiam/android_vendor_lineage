@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -16,5 +17,5 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <bool name="show_notification_if_connected_to_companion_devices">true</bool>
 </resources>

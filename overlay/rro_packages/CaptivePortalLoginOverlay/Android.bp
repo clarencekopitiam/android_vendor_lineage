@@ -15,7 +15,8 @@
 //
 
 runtime_resource_overlay {
-    name: "NetworkStackOverlay",
+    name: "CaptivePortalLoginOverlay",
+    theme: "CaptivePortalLoginOverlay",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

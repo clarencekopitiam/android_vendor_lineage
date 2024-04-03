@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -16,5 +17,6 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <string name="android_start_title" translatable="false">Pixel is starting…</string>
+    <string name="android_upgrading_title" translatable="false">Pixel is updating…</string>
 </resources>

@@ -217,8 +217,27 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/lineage/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CaptivePortalLoginOverlay \
+    CellBroadcastReceiverOverlay \
+    CellBroadcastServiceOverlay \
+    DMServiceOverlay \
     DocumentsUIOverlay \
-    NetworkStackOverlay
+    GoogleConfigOverlay \
+    GoogleDeviceLockControllerOverlay \
+    GoogleHealthConnectOverlay \
+    GooglePermissionControllerOverlay \
+    GoogleWebViewOverlay \
+    ManagedProvisioningPixelOverlay \
+    MediaProviderOverlay \
+    NetworkStackOverlay \
+    PixelConfigOverlay2018 \
+    PixelConfigOverlay2019 \
+    PixelConfigOverlay2019Midyear \
+    PixelConfigOverlay2021 \
+    PixelConfigOverlayCommon \
+    PixelSetupWizardOverlayCustom \
+    PixelTetheringOverlay \
+    SettingsGoogleOverlayCustom
 
 # Translations
 CUSTOM_LOCALES += \

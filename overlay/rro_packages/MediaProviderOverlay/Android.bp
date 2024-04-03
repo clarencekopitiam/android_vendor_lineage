@@ -15,7 +15,8 @@
 //
 
 runtime_resource_overlay {
-    name: "NetworkStackOverlay",
+    name: "MediaProviderOverlay",
+    theme: "MediaProviderOverlay",
     certificate: "platform",
     sdk_version: "current",
     product_specific: true

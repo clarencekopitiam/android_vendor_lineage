@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -15,6 +16,10 @@
 ** limitations under the License.
 */
 -->
-<resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
-</resources>
+<overlay>
+    <item target="drawable/nfc_detection_point" value="@drawable/nfc_detection_point" />
+    <item target="bool/config_nfc_detection_point" value="@bool/config_nfc_detection_point" />
+    <item target="bool/config_show_regulatory_info" value="@bool/config_show_regulatory_info" />
+    <item target="raw/fingerprint_location_animation" value="@raw/fingerprint_location_animation" />
+    <item target="raw/gesture_ambient_tap_screen" value="@raw/gesture_ambient_tap_screen" />
+</overlay>

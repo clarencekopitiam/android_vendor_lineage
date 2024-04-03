@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
 ** Copyright (C) 2024 The hentaiOS Project and its Proprietors.
@@ -16,5 +17,8 @@
 */
 -->
 <resources>
-    <bool name="config_dhcp_client_hostname">true</bool>
+    <!-- Error color -->
+    <color name="error_color_device_default_dark">#ffec928e</color>
+    <color name="error_color_device_default_light">#ffb3261e</color>
+    <color name="system_error">#ffea4335</color>
 </resources>
