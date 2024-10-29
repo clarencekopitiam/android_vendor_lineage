@@ -239,6 +239,12 @@ CUSTOM_LOCALES += \
     cy_GB \
     fur_IT
 
+# Updater
+ifeq ($(PIXELAGE_BUILDTYPE),OFFICIAL)
+PRODUCT_PACKAGES += \
+    Updater
+endif
+
 # Bootanimation
 include vendor/pixelage/config/bootanimation.mk
 
